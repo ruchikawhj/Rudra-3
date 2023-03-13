@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    border: solid
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border: solid;
+}
+
+.menu a {
+    border: solid;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: last baseline;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.menu a:active {
+    color: orange
+}
+
+.menu a:visited {
+    color: darkred
+}
+
+.site-description {
+    font-family: monotype corsiva;
+    font-size: 30;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
+.items p {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    color: #000;
+    margin-left: 20px
+}
+
+.items img:hover{
+transform: scale(1.2);
+opacity: 0.33;
+}
